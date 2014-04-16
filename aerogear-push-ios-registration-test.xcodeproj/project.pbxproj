@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838AEAF318FEAD0C00B62553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838AEAF218FEAD0C00B62553 /* Foundation.framework */; };
+		838AEAF518FEAD0C00B62553 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838AEAF418FEAD0C00B62553 /* CoreGraphics.framework */; };
+		838AEAF718FEAD0C00B62553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838AEAF618FEAD0C00B62553 /* UIKit.framework */; };
+		838AEAFD18FEAD0C00B62553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 838AEAFB18FEAD0C00B62553 /* InfoPlist.strings */; };
+		838AEAFF18FEAD0C00B62553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 838AEAFE18FEAD0C00B62553 /* main.m */; };
+		838AEB0318FEAD0C00B62553 /* JBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 838AEB0218FEAD0C00B62553 /* JBAppDelegate.m */; };
+		838AEB0618FEAD0C00B62553 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838AEB0418FEAD0C00B62553 /* Main_iPhone.storyboard */; };
+		838AEB0918FEAD0C00B62553 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838AEB0718FEAD0C00B62553 /* Main_iPad.storyboard */; };
+		838AEB0C18FEAD0C00B62553 /* JBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 838AEB0B18FEAD0C00B62553 /* JBViewController.m */; };
+		838AEB0E18FEAD0C00B62553 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838AEB0D18FEAD0C00B62553 /* Images.xcassets */; };
+		838AEB1518FEAD0C00B62553 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838AEB1418FEAD0C00B62553 /* XCTest.framework */; };
+		838AEB1618FEAD0C00B62553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838AEAF218FEAD0C00B62553 /* Foundation.framework */; };
+		838AEB1718FEAD0C00B62553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838AEAF618FEAD0C00B62553 /* UIKit.framework */; };
+		838AEB1F18FEAD0C00B62553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 838AEB1D18FEAD0C00B62553 /* InfoPlist.strings */; };
+		838AEB2118FEAD0C00B62553 /* aerogear_push_ios_registration_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838AEB2018FEAD0C00B62553 /* aerogear_push_ios_registration_testTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		838AEB1818FEAD0C00B62553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838AEAE718FEAD0C00B62553 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838AEAEE18FEAD0C00B62553;
+			remoteInfo = "aerogear-push-ios-registration-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		838AEAEF18FEAD0C00B62553 /* aerogear-push-ios-registration-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aerogear-push-ios-registration-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		838AEAF218FEAD0C00B62553 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		838AEAF418FEAD0C00B62553 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		838AEAF618FEAD0C00B62553 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		838AEAFA18FEAD0C00B62553 /* aerogear-push-ios-registration-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aerogear-push-ios-registration-test-Info.plist"; sourceTree = "<group>"; };
+		838AEAFC18FEAD0C00B62553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		838AEAFE18FEAD0C00B62553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		838AEB0018FEAD0C00B62553 /* aerogear-push-ios-registration-test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aerogear-push-ios-registration-test-Prefix.pch"; sourceTree = "<group>"; };
+		838AEB0118FEAD0C00B62553 /* JBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBAppDelegate.h; sourceTree = "<group>"; };
+		838AEB0218FEAD0C00B62553 /* JBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAppDelegate.m; sourceTree = "<group>"; };
+		838AEB0518FEAD0C00B62553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		838AEB0818FEAD0C00B62553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		838AEB0A18FEAD0C00B62553 /* JBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBViewController.h; sourceTree = "<group>"; };
+		838AEB0B18FEAD0C00B62553 /* JBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBViewController.m; sourceTree = "<group>"; };
+		838AEB0D18FEAD0C00B62553 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		838AEB1318FEAD0C00B62553 /* aerogear-push-ios-registration-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aerogear-push-ios-registration-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		838AEB1418FEAD0C00B62553 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		838AEB1C18FEAD0C00B62553 /* aerogear-push-ios-registration-testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aerogear-push-ios-registration-testTests-Info.plist"; sourceTree = "<group>"; };
+		838AEB1E18FEAD0C00B62553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		838AEB2018FEAD0C00B62553 /* aerogear_push_ios_registration_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aerogear_push_ios_registration_testTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838AEAEC18FEAD0C00B62553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AEAF518FEAD0C00B62553 /* CoreGraphics.framework in Frameworks */,
+				838AEAF718FEAD0C00B62553 /* UIKit.framework in Frameworks */,
+				838AEAF318FEAD0C00B62553 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AEB1018FEAD0C00B62553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AEB1518FEAD0C00B62553 /* XCTest.framework in Frameworks */,
+				838AEB1718FEAD0C00B62553 /* UIKit.framework in Frameworks */,
+				838AEB1618FEAD0C00B62553 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		838AEAE618FEAD0C00B62553 = {
+			isa = PBXGroup;
+			children = (
+				838AEAF818FEAD0C00B62553 /* aerogear-push-ios-registration-test */,
+				838AEB1A18FEAD0C00B62553 /* aerogear-push-ios-registration-testTests */,
+				838AEAF118FEAD0C00B62553 /* Frameworks */,
+				838AEAF018FEAD0C00B62553 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		838AEAF018FEAD0C00B62553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838AEAEF18FEAD0C00B62553 /* aerogear-push-ios-registration-test.app */,
+				838AEB1318FEAD0C00B62553 /* aerogear-push-ios-registration-testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838AEAF118FEAD0C00B62553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				838AEAF218FEAD0C00B62553 /* Foundation.framework */,
+				838AEAF418FEAD0C00B62553 /* CoreGraphics.framework */,
+				838AEAF618FEAD0C00B62553 /* UIKit.framework */,
+				838AEB1418FEAD0C00B62553 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		838AEAF818FEAD0C00B62553 /* aerogear-push-ios-registration-test */ = {
+			isa = PBXGroup;
+			children = (
+				838AEB0118FEAD0C00B62553 /* JBAppDelegate.h */,
+				838AEB0218FEAD0C00B62553 /* JBAppDelegate.m */,
+				838AEB0418FEAD0C00B62553 /* Main_iPhone.storyboard */,
+				838AEB0718FEAD0C00B62553 /* Main_iPad.storyboard */,
+				838AEB0A18FEAD0C00B62553 /* JBViewController.h */,
+				838AEB0B18FEAD0C00B62553 /* JBViewController.m */,
+				838AEB0D18FEAD0C00B62553 /* Images.xcassets */,
+				838AEAF918FEAD0C00B62553 /* Supporting Files */,
+			);
+			path = "aerogear-push-ios-registration-test";
+			sourceTree = "<group>";
+		};
+		838AEAF918FEAD0C00B62553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				838AEAFA18FEAD0C00B62553 /* aerogear-push-ios-registration-test-Info.plist */,
+				838AEAFB18FEAD0C00B62553 /* InfoPlist.strings */,
+				838AEAFE18FEAD0C00B62553 /* main.m */,
+				838AEB0018FEAD0C00B62553 /* aerogear-push-ios-registration-test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		838AEB1A18FEAD0C00B62553 /* aerogear-push-ios-registration-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				838AEB2018FEAD0C00B62553 /* aerogear_push_ios_registration_testTests.m */,
+				838AEB1B18FEAD0C00B62553 /* Supporting Files */,
+			);
+			path = "aerogear-push-ios-registration-testTests";
+			sourceTree = "<group>";
+		};
+		838AEB1B18FEAD0C00B62553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				838AEB1C18FEAD0C00B62553 /* aerogear-push-ios-registration-testTests-Info.plist */,
+				838AEB1D18FEAD0C00B62553 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838AEAEE18FEAD0C00B62553 /* aerogear-push-ios-registration-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838AEB2418FEAD0C00B62553 /* Build configuration list for PBXNativeTarget "aerogear-push-ios-registration-test" */;
+			buildPhases = (
+				838AEAEB18FEAD0C00B62553 /* Sources */,
+				838AEAEC18FEAD0C00B62553 /* Frameworks */,
+				838AEAED18FEAD0C00B62553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aerogear-push-ios-registration-test";
+			productName = "aerogear-push-ios-registration-test";
+			productReference = 838AEAEF18FEAD0C00B62553 /* aerogear-push-ios-registration-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		838AEB1218FEAD0C00B62553 /* aerogear-push-ios-registration-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838AEB2718FEAD0C00B62553 /* Build configuration list for PBXNativeTarget "aerogear-push-ios-registration-testTests" */;
+			buildPhases = (
+				838AEB0F18FEAD0C00B62553 /* Sources */,
+				838AEB1018FEAD0C00B62553 /* Frameworks */,
+				838AEB1118FEAD0C00B62553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838AEB1918FEAD0C00B62553 /* PBXTargetDependency */,
+			);
+			name = "aerogear-push-ios-registration-testTests";
+			productName = "aerogear-push-ios-registration-testTests";
+			productReference = 838AEB1318FEAD0C00B62553 /* aerogear-push-ios-registration-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838AEAE718FEAD0C00B62553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JBoss;
+				TargetAttributes = {
+					838AEB1218FEAD0C00B62553 = {
+						TestTargetID = 838AEAEE18FEAD0C00B62553;
+					};
+				};
+			};
+			buildConfigurationList = 838AEAEA18FEAD0C00B62553 /* Build configuration list for PBXProject "aerogear-push-ios-registration-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 838AEAE618FEAD0C00B62553;
+			productRefGroup = 838AEAF018FEAD0C00B62553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838AEAEE18FEAD0C00B62553 /* aerogear-push-ios-registration-test */,
+				838AEB1218FEAD0C00B62553 /* aerogear-push-ios-registration-testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838AEAED18FEAD0C00B62553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AEB0918FEAD0C00B62553 /* Main_iPad.storyboard in Resources */,
+				838AEB0E18FEAD0C00B62553 /* Images.xcassets in Resources */,
+				838AEB0618FEAD0C00B62553 /* Main_iPhone.storyboard in Resources */,
+				838AEAFD18FEAD0C00B62553 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AEB1118FEAD0C00B62553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AEB1F18FEAD0C00B62553 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838AEAEB18FEAD0C00B62553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AEB0318FEAD0C00B62553 /* JBAppDelegate.m in Sources */,
+				838AEB0C18FEAD0C00B62553 /* JBViewController.m in Sources */,
+				838AEAFF18FEAD0C00B62553 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AEB0F18FEAD0C00B62553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838AEB2118FEAD0C00B62553 /* aerogear_push_ios_registration_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		838AEB1918FEAD0C00B62553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838AEAEE18FEAD0C00B62553 /* aerogear-push-ios-registration-test */;
+			targetProxy = 838AEB1818FEAD0C00B62553 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		838AEAFB18FEAD0C00B62553 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838AEAFC18FEAD0C00B62553 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		838AEB0418FEAD0C00B62553 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838AEB0518FEAD0C00B62553 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		838AEB0718FEAD0C00B62553 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838AEB0818FEAD0C00B62553 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		838AEB1D18FEAD0C00B62553 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838AEB1E18FEAD0C00B62553 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838AEB2218FEAD0C00B62553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		838AEB2318FEAD0C00B62553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838AEB2518FEAD0C00B62553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aerogear-push-ios-registration-test/aerogear-push-ios-registration-test-Prefix.pch";
+				INFOPLIST_FILE = "aerogear-push-ios-registration-test/aerogear-push-ios-registration-test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		838AEB2618FEAD0C00B62553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aerogear-push-ios-registration-test/aerogear-push-ios-registration-test-Prefix.pch";
+				INFOPLIST_FILE = "aerogear-push-ios-registration-test/aerogear-push-ios-registration-test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		838AEB2818FEAD0C00B62553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/aerogear-push-ios-registration-test.app/aerogear-push-ios-registration-test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aerogear-push-ios-registration-test/aerogear-push-ios-registration-test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "aerogear-push-ios-registration-testTests/aerogear-push-ios-registration-testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		838AEB2918FEAD0C00B62553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/aerogear-push-ios-registration-test.app/aerogear-push-ios-registration-test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aerogear-push-ios-registration-test/aerogear-push-ios-registration-test-Prefix.pch";
+				INFOPLIST_FILE = "aerogear-push-ios-registration-testTests/aerogear-push-ios-registration-testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838AEAEA18FEAD0C00B62553 /* Build configuration list for PBXProject "aerogear-push-ios-registration-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838AEB2218FEAD0C00B62553 /* Debug */,
+				838AEB2318FEAD0C00B62553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838AEB2418FEAD0C00B62553 /* Build configuration list for PBXNativeTarget "aerogear-push-ios-registration-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838AEB2518FEAD0C00B62553 /* Debug */,
+				838AEB2618FEAD0C00B62553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		838AEB2718FEAD0C00B62553 /* Build configuration list for PBXNativeTarget "aerogear-push-ios-registration-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838AEB2818FEAD0C00B62553 /* Debug */,
+				838AEB2918FEAD0C00B62553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 838AEAE718FEAD0C00B62553 /* Project object */;
+}
